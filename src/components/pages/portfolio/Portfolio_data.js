@@ -1,1 +1,1 @@
-import placeholder from
+import placeholder from "../../../assets/placeholder.png";
