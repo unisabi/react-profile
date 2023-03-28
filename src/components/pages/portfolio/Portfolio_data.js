@@ -1,1 +1,0 @@
-import placeholder from "../../../assets/placeholder.png";
