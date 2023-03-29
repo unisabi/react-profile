@@ -1,6 +1,6 @@
 import React from "react";
-import me2 from "../../assets/me1.jpg";
-import "../style/about.css";
+import me1 from "../../../assets/me1.jpg";
+import "./about.css";
 function About(props) {
   return (
     <div className="wrapper">
