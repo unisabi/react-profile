@@ -5,7 +5,8 @@ import About from "./components/pages/about/about";
 import Portfolio from "./components/pages/portfolio/portfolio";
 import Contact from "./components/pages/contact/contact";
 import Resume from "./components/pages/resume/resume";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="app--container">
