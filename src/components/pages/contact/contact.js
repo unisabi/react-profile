@@ -9,7 +9,7 @@ function Contact(props) {
     <div className="wrapper">
       <div className="contact--container">
         <div className="contact--header">
-          <h2>Message me</h2>
+          <h2>Message me!</h2>
         </div>
         <form className="contact--body">
           <input

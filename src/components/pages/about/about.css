@@ -1,18 +1,18 @@
 .about--container {
     margin: auto;
-    width: 700px;
+    width: 400px;
     height: auto;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #222831;
+    background-color: #f9b6ec;
     border-radius: 10px;
     padding: 0.5rem;
-    border: 2px solid #00adb5;
+    border: 2px solid #ffffff;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
     .about--container {
       width: 100%;
       border-radius: 0px;
@@ -21,7 +21,7 @@
   }
   
   .about--heading {
-    color: #00adb5;
+    color: #000000;
     display: flex;
     justify-content: flex-start;
     align-content: center;
@@ -32,9 +32,9 @@
   }
   
   .about--img {
-    width: 200px;
-    height: 200px;
-    background: linear-gradient(180deg, #00adb5 0%, #393e46 100%);
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(180deg, #92ffa3 0%, #3c453c 100%);
     border-radius: 10% 10% 0% 0%;
     box-shadow: 1px 2px 5px -2px #222831;
   }
@@ -54,8 +54,7 @@
   .about--text p {
     font-size: 1rem;
     font-weight: 200;
-    color: #eeeeee;
-    color: #eeeeee;
+    color: #000000;
     text-align: center;
   }
   @media only screen and (max-width: 600px) {

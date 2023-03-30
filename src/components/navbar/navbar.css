@@ -26,8 +26,8 @@
     background-color: #393e46;
   }
   .navbar--item a.active {
-    background-color: #00adb5;
-    color: #222831;
+    background-color: #d8fad2;
+    color: #31222d;
   }
   @media only screen and (max-width: 600px) {
     .navbar--item a {

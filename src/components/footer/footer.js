@@ -10,26 +10,17 @@ function Footer(props) {
     <div className="footer--container">
       <div className="footer--left">
         <div className="footer--item">
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/unisabi" target="_blank" rel="noreferrer">
             <AiFillGithub className="react--icons" />
           </a>
         </div>
         <div className="footer--item">
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/unisabi" target="_blank" rel="noreferrer">
             <AiFillLinkedin className="react--icons" />
           </a>
         </div>
         <div className="footer--item">
-          <a
-            href="https://twitter.com/?lang=en"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiFillTwitterCircle className="react--icons" />
-          </a>
-        </div>
-        <div className="footer--item">
-          <a href="https://stackoverflow.com/" target="_blank" rel="noreferrer">
+          <a href="https://stackoverflow.com/users/21523851/sabina-ceja-siete" target="_blank" rel="noreferrer">
             <GrStackOverflow className="react--icons" />
           </a>
         </div>
