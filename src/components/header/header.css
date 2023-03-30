@@ -1,0 +1,38 @@
+.header--container {
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #00adb5;
+    background-color: #222831;
+    color: #eeeeee;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 1px 1px 5px -2px rgba(255, 255, 255, 0.75);
+    box-shadow: 1px 1px 5px -2px #00adb5;
+    height: 70px;
+  }
+  @media only screen and (max-width: 600px) {
+    .header--container {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  
+  .header--left {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #eeeeee;
+  }
+  @media only screen and (max-width: 600px) {
+    .header--left {
+      text-align: center;
+    }
+  }/*# sourceMappingURL=Header.css.map */

@@ -1,5 +1,5 @@
 import React from "react";
-import { skills } from "./resume-dataJ";
+import { skills } from "./resume-data";
 import Card from "./card";
 
 import "../resume/resume.css";

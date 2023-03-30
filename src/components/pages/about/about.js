@@ -7,7 +7,7 @@ function About(props) {
       <div className="about--container">
         <div className="about--heading">
           <h3>Hello!</h3>
-          <h4>I am Sabina</h4>
+          <h4>I am Sabina Ceja-Siete</h4>
         </div>
         <div className="about--img">
           <img src={me1} alt="about" />

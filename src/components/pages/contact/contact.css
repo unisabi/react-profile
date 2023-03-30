@@ -1,0 +1,89 @@
+.contact--container {
+    background-color: #222831;
+    border: 2px solid #00adb5;
+    margin: auto;
+    position: relative;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 1.5rem;
+    box-shadow: 1px 2px 10px 1px #222831;
+  }
+  @media only screen and (max-width: 600px) {
+    .contact--container {
+      width: 100%;
+      border-radius: 0px;
+      border: none;
+      height: 100%;
+    }
+  }
+  
+  .contact--header {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00adb5;
+  }
+  .contact--header h2 {
+    color: #00adb5;
+  }
+  
+  .contact--body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .contact--body input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    border-bottom: 2px solid #00adb5;
+    background-color: transparent;
+    color: #00adb5;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    margin: auto;
+  }
+  .contact--body input::-moz-placeholder {
+    font-size: 1rem;
+    color: rgba(238, 238, 238, 0.3882352941);
+  }
+  .contact--body input::placeholder {
+    font-size: 1rem;
+    color: rgba(238, 238, 238, 0.3882352941);
+  }
+  .contact--body textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-bottom: 2px solid #00adb5;
+    background-color: transparent;
+    color: #00adb5;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+  }
+  .contact--body textarea::-moz-placeholder {
+    font-size: 1rem;
+    color: rgba(238, 238, 238, 0.3882352941);
+  }
+  .contact--body textarea::placeholder {
+    font-size: 1rem;
+    color: rgba(238, 238, 238, 0.3882352941);
+  }
+  .contact--body button {
+    width: 100%;
+  }/*# sourceMappingURL=Contact.css.map */
